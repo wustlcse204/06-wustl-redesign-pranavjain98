@@ -1,0 +1,75 @@
+.navcolor{
+    background-color: bisque;
+    border-bottom: solid rgb(0, 39, 70,0.2) 1px;
+}
+
+.nleft{
+        position: absolute;
+        left: 15%;
+        display: inline-block;
+}
+
+.headertext{
+    color: maroon;
+    padding: 10px;
+    border-right: solid rgb(0, 39, 70,0.2) 1px;
+    border-left: solid rgb(0, 39, 70,0.2) 1px;
+    border-collapse: collapse;
+}
+
+.headertext1{
+    color: maroon;
+    padding: 10px;
+    border-right: solid rgb(0, 39, 70,0.2) 1px;
+    border-collapse: collapse;
+}
+
+.headimg{
+    max-width: 570px;
+    height: auto; 
+}
+
+#imgcont{
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-left: 0px;
+}
+
+#headcont{
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-left: 30px;
+    background-color: darkred;
+    color: aliceblue;
+    text-align: left;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#headhead{
+    margin-top: 30px;
+}
+
+#headhead1{
+    margin: 10px;
+}
+
+#calenel{
+    max-height: 20%;
+    font-size: 15px;
+    display: inline-block;
+    color: maroon;
+    border-bottom: solid rgb(0, 39, 70,0.2) 1px;
+}
+
+#calenel1{
+    max-height: 20%;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#monthword{
+    font-size: 20px;
+    font-style: normal;
+}
