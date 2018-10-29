@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="This webpage serves as a portal for users to navigate through ">
     <title>Washington University in St.Louis main page </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navcolor">
@@ -15,17 +18,38 @@
             </a>
         </div>
         <div class="nleft">
-            <a href="#" class="headertext">Academics</a> 
+            <a href="#" class="headertext1">Academics</a> 
             <a href="#" class="headertext1">Clinics</a> 
             <a href="#" class="headertext1">Skills programs</a> 
             <a href="#" class="headertext1">Careers</a> 
             <a href="#" class="headertext1">Public Service<a> 
             <a href="#" class="headertext1">Centers/institutes<a> 
             <a href="#" class="headertext1">Library<a> 
-            <a href="#" class="headertext1">Deans<a> 
+            <a href="#" class="headertext1">Deans<a>               
         </div>
+        <div class="navdrop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>     
     </nav>
     <div class="container">
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Dropdown button
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-6" id="imgcont">
                 <img class="headimg" src="buildingshot.jpg">

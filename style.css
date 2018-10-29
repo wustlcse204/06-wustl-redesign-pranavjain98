@@ -9,19 +9,26 @@
         display: inline-block;
 }
 
-.headertext{
-    color: maroon;
-    padding: 10px;
-    border-right: solid rgb(0, 39, 70,0.2) 1px;
-    border-left: solid rgb(0, 39, 70,0.2) 1px;
-    border-collapse: collapse;
-}
-
 .headertext1{
     color: maroon;
     padding: 10px;
-    border-right: solid rgb(0, 39, 70,0.2) 1px;
-    border-collapse: collapse;
+}
+
+@media (max-width: 700px) {
+    .headertext1{
+        display: none;
+    }
+    .navdrop{
+        display: block;
+        position: relative;
+        right: 100px; 
+    }
+}
+
+@media (min-width: 700px) {
+    .navdrop{
+        display: none;
+    }
 }
 
 .headimg{
@@ -44,6 +51,7 @@
     text-align: left;
     vertical-align: middle;
     font-family: 'Times New Roman', Times, serif;
+    max-height: 247.03px;
 
 }
 
