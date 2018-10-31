@@ -9,9 +9,30 @@
         display: inline-block;
 }
 
+.foot{
+    position: absolute;
+    left: 15%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
 .headertext1{
     color: maroon;
     padding: 10px;
+}
+
+.headertext2{
+    color: maroon;
+    padding: 10px;
+    border-right: solid rgb(0, 39, 70,0.2) 1px;
+    font-size: 10px;
+}
+
+.headertext3{
+    color: maroon;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 10px;
 }
 
 @media (max-width: 700px) {
@@ -21,7 +42,7 @@
     .navdrop{
         display: block;
         position: relative;
-        right: 200px; 
+        right: 150px; 
     }
 }
 
@@ -31,28 +52,38 @@
     }
 }
 
-.headimg{
-    max-width: 570px;
-    height: auto; 
+@media (max-width: 570px) {
+    .headimg{
+        max-width: 100vw;
+        height: auto; 
+    }
+}
+
+
+@media (min-width: 570px) {
+    .headimg{
+        max-width: 570px;
+        height: auto; 
+    }
 }
 
 #imgcont{
     padding-right: 0px;
     margin-top: 30px;
     padding-left: 0px;
+    box-shadow: 0 0 5px #777777;
 }
 
 #headcont{
-    padding-right: 0px;
+    padding-right: 30px;
     margin-top: 30px;
     padding-left: 30px;
     background-color: darkred;
     color: aliceblue;
     text-align: left;
     vertical-align: middle;
-    font-family: 'Times New Roman', Times, serif;
-    max-height: 247.03px;
-
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0 0 5px #777777;
 }
 
 #headhead{
@@ -63,21 +94,79 @@
     margin: 10px;
 }
 
-#calenel{
-    max-height: 20%;
+.calenel0{
     font-size: 15px;
-    display: inline-block;
-    color: maroon;
+    padding: 15px;
     border-bottom: solid rgb(0, 39, 70,0.2) 1px;
-}
-
-#calenel1{
-    max-height: 20%;
-    font-size: 15px;
-    display: inline-block;
+    max-width: 350px;
+    min-width: 350px;
+    word-wrap: break-word;
+    margin-left: 10px;
 }
 
 #monthword{
     font-size: 20px;
     font-style: normal;
+}
+
+.applyb{
+    margin-top: 10px;
+    background-color: #8E6652;
+    color: white;
+}
+
+.applybc{
+    margin: 15px;
+    margin-top: 30px;
+    background-color: #8E6652;
+    color: white;
+}
+
+.calenhead{
+    background-color: bisque;
+    padding: 15px;
+    text-align: center;
+    color: maroon;
+    box-shadow: 0 0 5px #777777;
+    min-width: 350px;
+}
+
+#calencont{
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-left: 0px;
+    box-shadow: 0 0 5px #777777;
+    min-width: 350px;
+}
+
+#content{
+    padding-right: 0px;
+    margin-top: 30px;
+    padding-left: 0px;
+    box-shadow: 0 0 5px #777777;
+    min-width: 350px;
+    margin-left: 50px;
+}
+
+.wing{
+    font-size: 15px;
+    padding: 15px;
+    word-wrap: break-word;
+    margin-left: 10px;
+    max-width: 625px;
+}
+
+#sideimg{
+    display: inline-block; 
+    width: 50px;
+    overflow: hidden;
+    margin-top: 30px;
+    height: 247.033px;
+}
+
+footer{
+    background-color: bisque;
+    border-top: solid rgb(0, 39, 70,0.2) 1px;
+    margin-top: 50px;
+    height: 100px;
 }
